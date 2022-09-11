@@ -1,0 +1,157 @@
+
+
+body {
+    background-color: #121111;
+    font-family:  'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h3 {
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+ 
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width: 99%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active  {
+    color: coral;
+}
+
+
+
+section {
+    margin: 1%;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-color: goldenrod;
+}
+
+.resume p {
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+
+
+
+.livros article {
+    background-color: white;
+    display: flex;
+    border-style: groove;
+    border-color: black;
+    width: 100%;
+}
+
+.book-content {
+    align-items: center;
+    margin: 0.5%;
+}
+
+
+.logo {
+    padding-right: 0px;
+    background-color: #121111;
+    margin: 2%; 
+    max-width: 30%;
+}
+
+
+.menu {
+
+    margin-left: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+}
+
+.menu a {
+    font-weight: 900;
+    margin-left: 15%;
+    font-size: larger;
+}
+
+.portais li {
+    margin: 1em;
+}
+
+.capa {
+    object-fit:contain;
+    max-width: 10%;
+    max-height: fit-content;
+    margin-right: 1%;
+    background-color: black;
+}
+
+.jogos ul{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    align-items: center;
+}
+
+.jogos  li {
+    height: fit-content;
+    text-align: center;
+    border-style:solid;
+    background-color: black;
+    margin: 1%;
+}
+
+.jogos a {
+    padding-top: 0.5%;
+    display: block;
+}
